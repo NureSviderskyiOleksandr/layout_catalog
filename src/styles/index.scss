@@ -13,11 +13,11 @@ body {
 
 .container {
   display: grid;
-  padding: 40px 50px;
+  padding: 50px 40px;
 
   @include grid-card-scale;
 
-  gap: 48px 46px;
+  gap: 46px 48px;
 }
 
 .card {
