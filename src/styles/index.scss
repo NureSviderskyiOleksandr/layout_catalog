@@ -11,7 +11,6 @@ body {
   text-transform: uppercase;
 }
 
-
 .container {
   display: grid;
   padding: 40px 50px;
@@ -21,10 +20,10 @@ body {
   gap: 48px 46px;
 }
 
-.card{
+.card {
   transition: 300ms;
 
-  &:hover{
+  &:hover {
     transform: scale(1.2);
 
     .card__title {
@@ -39,6 +38,3 @@ body {
     }
   }
 }
-
-
-
